@@ -23,8 +23,8 @@ const Button = ({ children, span, color }) => {
 			className={`px-3 font-semibold py-1 rounded-md bg-zinc-200 hover:bg-zinc-100 text-zinc-900 ${
 				span === 'two' && 'col-span-2'
 			}
-        ${color === 'sky' && 'bg-sky-600 hover:!bg-sky-500 text-sky-50'}
-        ${color === 'rose' && 'bg-rose-600 hover:!bg-rose-500 text-rose-50'}
+        ${color === 'sky' && '!bg-sky-600 hover:!bg-sky-500 !text-sky-50'}
+        ${color === 'rose' && '!bg-rose-600 hover:!bg-rose-500 !text-rose-50'}
 
       `}
 		>
